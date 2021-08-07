@@ -11,6 +11,7 @@
   <li> Hình hộp: Đặt nằm ngang, ưu tiên mặt có logo hoặc tên ở phía trên. </li>
   <li> Dạng gói: Đặt nằm ngang, ưu tiên mặt có logo hoặc tên ở phía trên. </li>
 </ul>
+![Logo TechMaster!](https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_01.jpg)
 
 
 <h2> 2. Tổng quan về bộ dữ liệu </h2>
