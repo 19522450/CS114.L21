@@ -52,41 +52,23 @@
 <h3> Bộ dữ liệu cho mỗi model </h3>
 <p> Hai tập dữ liệu dùng để train hai model đều có kích thước 17.3GB, tập dữ liệu sẽ bao gồm files ảnh chụp định dạng *.jpg các sản phẩm và files label (gán nhãn cho từng ảnh). </p>
 
-<table style=“width:100%”>
+<table border="1">
   <tr>
     <th> YOLO </th>
     <th> DETECRON2 </th>
   </tr>
   
   <tr>
-    <td align="middle"> 
-      Định dạng files annotaions dưới dạng <strong>*.txt</strong><br> 
-      (Tương ứng với một files ảnh sẽ có files labels trùng tên tương đương.) 
-    </td>
-    <td align="middle"> Định dạng files annotations dưới dạng <strong>*.json</strong>. <td>
+    <td align="middle"> Định dạng files annotaions dưới dạng <strong>*.txt</strong> <br> (Tương ứng với một files ảnh sẽ có files labels trùng tên tương đương) </td>
+    <td align="middle"> Định dạng files annotations dưới dạng <strong>*.json</strong>. </td>
   </tr>
   
   <tr>
     <td align="middle"> Bộ dữ liệu dùng để train model yolov4 được chia theo tỉ lệ <strong>80/20</strong> tương đương <strong>train/valid</strong>. </td>
-    <td align="middle"> Bộ dữ liệu dùng để train model yolov4 được chia theo tỉ lệ <strong>80/20</strong> tương đương <strong>train/valid</strong>. </td>
+    <td align="middle"> Bộ dữ liệu dùng để train model detecron2 được chia theo tỉ lệ <strong>80/20</strong> tương đương <strong>train/valid</strong>. </td>
   </tr>
 </table>
-  
-  
-  
-  <li> YOLO </li>
-  <ul>
-    <li> Định dạng files annotaions dưới dạng <strong>*.txt</strong>. </li>
-    <li> Tương ứng với một files ảnh sẽ có files labels trùng tên tương đương. </li>
-    <li> Bộ dữ liệu dùng để train model yolov4 được chia theo tỉ lệ <strong>80/20</strong> tương đương <strong>train/valid</strong>. </li>
-  </ul>
-  
-  <li> FASTER R-CNN sử dụng Framework Detectron2 </li>
-  <ul>
-    <li> Định dạng files annotations dưới dạng <strong>*.json</strong>. </li>
-    <li> Bộ dữ liệu dùng để train model yolov4 được chia theo tỉ lệ <strong>80/20</strong> tương đương <strong>train/valid</strong>. </li>
-  </ul>
-</ul>
+
 
 <h3> Một số trường hợp khó xử lý: </h3>
 <ul>
