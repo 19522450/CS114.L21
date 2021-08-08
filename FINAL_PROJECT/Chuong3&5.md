@@ -11,8 +11,6 @@
   <li> Hình hộp: Đặt nằm ngang, ưu tiên mặt có logo hoặc tên ở phía trên. </li>
   <li> Dạng gói: Đặt nằm ngang, ưu tiên mặt có logo hoặc tên ở phía trên. </li>
 </ul>
-![Logo TechMaster!](https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_01.jpg)
-
 
 <h2> 2. Tổng quan về bộ dữ liệu </h2>
 <ul>
@@ -23,6 +21,12 @@
 </ul>
 
 <h3> Hình ảnh một số sản phẩm </h3>
+<div id="wrapper" style="width:100%; text-align:center">
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_01.jpg" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_02.jpg" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_03.jpg" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_04.jpg" width="200" height="200" />
+</div>
 
 <h3> Nhận xét: </h3>
 <ol> 
@@ -35,6 +39,9 @@
 
 
 <h2> 3. Mô tả thông số bộ dữ liệu </h2>
+<div id="wrapper" style="width:100%; text-align:center">
+  Ảnh
+</div>
 
 <h3> Nhận xét thông số: </h3>
 <ul>
@@ -61,9 +68,30 @@
 </ul>
 
 <h3> Một số trường hợp khó xử lý: </h3>
-
-
-
+<div id="wrapper" style="width:100%; text-align:center">
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/NhieuSp01.png" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/NhieuSp02.png" width="200" height="200" />
+</div>
+<p> Khoảng các giữa các sản phẩm nhỏ hơn nhiều so với khoảng cách từ sản phẩm tới biên màn hình. </p>
+<ul> => Giải pháp: trong một khung hình chỉ nên xuất hiện một sản phẩm. </ul>
+ 
+<div id="wrapper" style="width:100%; text-align:center">
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/HopDo01.jpg" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/HopDo02.jpg" width="200" height="200" />
+</div>
+<div id="wrapper" style="width:100%; text-align:center">
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/HopTron01.jpg" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/HopTron02.jpg" width="200" height="200" />
+</div>
+<div id="wrapper" style="width:100%; text-align:center">
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/HopVang01.jpg" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/HopVang02.jpg" width="200" height="200" />
+</div>
+<div id="wrapper" style="width:100%; text-align:center">
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh01.jpg" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh02.jpg" width="200" height="200" />
+</div>
+<p> Các sản phẩm có đặc điểm cùng màu sắc, cùng hình dáng. </p>
 
 
 <h1> Chương 5. Ứng Dụng và Hướng Phát Triển </h1>
