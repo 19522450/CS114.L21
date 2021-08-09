@@ -22,10 +22,10 @@
 
 <h3> Hình ảnh một số sản phẩm </h3>
 <p align="middle">
-  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_01.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_02.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_03.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_04.jpg" width="100" />
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_01.jpg" style="width:25%;"/>
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_02.jpg" style="width:25%;"/>
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_03.jpg" style="width:25%;"/>
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/Sp_04.jpg" style="width:25%;"/>
 </p>
 
 <h3> Nhận xét: </h3>
@@ -92,8 +92,8 @@
     <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/HopVang02.jpg" style="width:30%;"/>
   </div>
   <div align="middle">
-    <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh01.jpg" style="width:30%;"/>
-    <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh02.jpg" style="width:30%;"/>
+    <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh01.jpg" style="width:50%;"/>
+    <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh02.jpg" style="width:20%;"/>
   </div>
 
   <li> <strong>Các sản phẩm có cùng hình dáng khác tông màu:</strong> </li>
