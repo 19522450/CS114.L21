@@ -92,8 +92,8 @@
     <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/HopVang02.jpg" style="width:30%;"/>
   </div>
   <div align="middle">
-    <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh01.jpg" style="width:50%;"/>
-    <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh02.jpg" style="width:20%;"/>
+    <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh01.jpg" style="width:30%;"/>
+    <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/LonXanh02.jpg" style="width:30%;"/>
   </div>
 
   <li> <strong>Các sản phẩm có cùng hình dáng khác tông màu:</strong> </li>
