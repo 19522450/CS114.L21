@@ -120,7 +120,7 @@
 
 <h1> Chương 5. Ứng Dụng và Hướng Phát Triển </h1>
 
-<h2> Bài toán đặt ra </h2>
+<h2> 1. Bài toán đặt ra </h2>
 <p> Bài Toán “Nhận Diện Sản Phẩm Thương Mại” mà nhóm em hướng đến để giải quyết là bài toán có hướng phát triển và ứng dụng cao, đặc biệt là trong thời đại công nghệ ngày càng phát triển và “xâm nhập” vào thị trường mua sắm. Nếu model được cải tiến để giải quyết bài toán với model có độ chính xác cao, thì bài toán của chúng em sẽ góp phần quan trọng trong việc xây dựng mô hình mua sắm công nghệ cao, điển hình với dự án của một số công ty lớn sau: </p>
 
 <ul>
@@ -130,27 +130,42 @@
 </ul>
  
  
-<h2> Hướng cải tiến </h2>
-<p> Như đã nói ở trên, để có thể giải quyết bài toán “Nhận Diện Sản Phẩm Thương Mại” ở mức độ ứng dụng được vào trong các mô hình mua sắm công nghệ cao, thì với model như trên của chúng em cần phải có những hưỡng cải tiến như sau: </p>
+<h2> 2. Hướng cải tiến </h2>
+<p> Bài toán Nhận Diện Sản Phẩm Thương Mại là một bài toán có hướng phát triển và ứng dụng cao, tuy nhiên để có thể phát triển và đưa bài toán này vào ứng dụng thực tế như “Chuỗi cửa hàng Amazon Go của công ty Amazon” hay “Dự án quầy thanh toán không thu ngân của công ty Abto software” thì trước hết chúng em cần khắc phục một vài nhược điểm: </p>
 
 <ul>
   <li> <strong>Về Data</strong> </li>
   <ul> 
-    <li> Tăng sự đa dạng và số lượng, loại sản phẩm nhiều hơn, ngoài ra phải thường xuyên thu thập data vì mẫu mã sản phẩm, giá cả liên tục thay đổi, ngoài ra cũng phải đáp ứng được các chương trình khuyến mãi của các chuỗi cửa hàng,... </li>
-    <li> Quy trình thu thập data phải diễn ra chặt chẽ, có sự đầu tư về phần cứng thiết bị, ví dụ như set up một phòng lab riêng biệt chỉ dành cho việc chụp hình các sản phẩm, các camera set up có giá đỡ cố định ở các góc, ánh sáng điều kiện, phù hợp với bối cảnh thực tế, chú ý đến vấn đề tạo nên một balanced data,... => Clean Data </li>
-    <li> Tăng cường dữ liệu, sử dụng các kỹ thuật như Data Augmentation (blur, gray scale, cutout, cutmix, rotate,...),...việc lựa chọn các bước tăng cường dữ liệu rất quan trọng, không phải phương pháp nào cũng tốt cho tập dữ liệu. </li>
+    <li> Bộ dữ liệu không cân bằng, có class chứa tới hơn 400 bức ảnh (Kem Đánh Răng PS Tra Xanh 100g) trong khi có class chỉ chứa gần 30 bức ảnh (Bột chiên giòn Meizan 150g) </li>
+      <ul> => <strong>Giải pháp:</strong> Chụp thêm nhiều ảnh đồng thời lựa chọn và sử dụng các kỹ thuật như tăng cường dữ liệu (blur, gray scale, cutout, cutmix, rotate,...) một cách hợp lý. </ul>
+    
+    <li> Bộ dữ liệu vẫn chưa đa dạng (chỉ có 199 sản phẩm so với hơn 10k sản phẩm trên Bách Hóa Xanh) </li>
+      <ul> => <strong>Giải pháp:</strong> Tăng sự đa dạng về số loại sản phẩm, ngoài ra thường xuyên cập nhật data vì mẫu mã và giá cả thay đổi liên tục. </ul>
+    
+    <li> Độ sáng, phông nền, góc quay chụp vẫn chưa thể hoàn toàn thống nhất do chụp ảnh thủ công. </li>
+      <ul> => <strong>Giải pháp:</strong> Quy trình thu thập data phải diễn ra chặt chẽ, có sự đầu tư về phần cứng thiết bị, ví dụ như set up một phòng lab riêng biệt chỉ dành cho việc chụp hình các sản phẩm, các camera set up có giá đỡ cố định ở các góc, ánh sáng điều kiện, phù hợp với bối cảnh thực tế, chú ý đến vấn đề tạo nên một balanced data,... => Clean Data </ul>
   </ul>
   
   <li> <strong>Về Model</strong> </li>
   <ul>
-    <li> Model trên của chúng em bị overfitting, nên phần cải tiến data như trên có thể sẽ giúp model well generalize. </li>
-    <li> Ngoài ra, cũng còn một số biện pháp cải thiện model như điều chỉnh độ phức tạp lại của networks, thay đổi các tham số, sử dụng kỹ thuật early stopping,... </li>
-    <li> Việc sử dụng pretrained model cũng ảnh hưởng tới kết quả detect, nên cân nhắc việc sử dụng pretrained model. </li>
+    <p> Vì chưa đủ kiến thức để hiểu một cách rõ ràng được ý nghĩa và phương thức hoạt động bên trong model nên hiện tại chúng em đang phải sử dụng pretrained model. Tuy nhiên việc sử dụng pretrain model cũng gây ảnh hương đến kết quả detect. Vậy nên sau khi đã có kiến thức sâu hơn về Machine learning và Deep learning, thì chúng em sẽ thay đổi model để phù hợp với bộ dữ liệu. </p>
   </ul>
   
-  <li> <strong>Để bài toán được mở rộng và phát triển, chúng em có ý tưởng thêm một số chức năng như sau:</strong> </li>
+  <li> <strong>Vấn đề model khó khăn khi nhận diện một bức ảnh chứa nhiều đối tượng</strong> </li>
+  <p>Theo gợi ý của thầy, để cải thiện vấn đề này chúng em dự định:</p>
+  <ul>
+    <li>Tạo ra ảnh mới bằng cách ghép những ảnh có sẵn trong data.</li>
+    <li>Label tất cả các đối tượng xuất hiện trong ảnh.</li>
+  </ul>
+  <p>Ví dụ minh họa:</p>
+  <p align="middle">
+  <img src="https://raw.githubusercontent.com/19522450/CS114.L21/main/FINAL_PROJECT/image/nObject.png" style="width:80%;"/>
+  </p>
+</ul>
+
+<h2> 3. Hướng phát triển </h2>
+<p> Nếu như có thể khắc phục được các vấn đề trên thì chúng em sẽ phát triển thêm một số tính năng để tương tác người dùng đồng thời hướng đến phát triển ứng dụng trên điện thoại để người dùng thuận tiện sử dụng: </p>
   <ul>
     <li> Sử dụng bảng điện tử trực truyết để người dùng có thể theo dõi tình trạng đơn hàng ở quầy thanh toán, tăng tương tác giữa người dùng với hệ thống,... </li>
     <li> Phát triển một ứng dụng điện thoại kết nối với dữ liệu mua sắm của người dùng, để người dùng tiện tra cứu thông tin, giá hóa đơn, sản phẩm,.. Tuy nhiên cũng đảm bảo bảo mật thông tin người dùng. </li>
   </ul>
-</ul>
