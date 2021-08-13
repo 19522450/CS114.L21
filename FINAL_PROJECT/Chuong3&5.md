@@ -156,6 +156,7 @@
   <ul>
     <li>Tạo ra ảnh mới bằng cách ghép những ảnh có sẵn trong data.</li>
     <li>Label tất cả các đối tượng xuất hiện trong ảnh.</li>
+    <li>Sau đó tiến hành training như các bước ở Chương 4.</li>
   </ul>
   <p>Ví dụ minh họa:</p>
   <p align="middle">
